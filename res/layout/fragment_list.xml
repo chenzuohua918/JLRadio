@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/framelayout_margin_left"
+        android:layout_marginRight="@dimen/framelayout_margin_right"
+        android:layout_weight="1"
+        android:background="@drawable/bg_radio_list" >
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/fragment_list_tv_empty_padding_top"
+            android:textColor="@color/text_normal_color"
+            android:textSize="@dimen/base_textsize" />
+
+        <ListView
+            android:id="@+id/lv_channel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/fragment_list_lv_channel_divider_height"
+            android:fadeScrollbars="false"
+            android:fastScrollEnabled="false"
+            android:layoutAnimation="@anim/list_item_layoutanimation"
+            android:paddingLeft="@dimen/fragment_list_lv_channel_padding_left"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbarThumbVertical="@drawable/vertical_scrollbar"
+            android:verticalScrollbarPosition="left" />
+
+        <com.semisky.jlradio.view.CollectToast
+            android:id="@+id/collectToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <com.semisky.jlradio.view.VerticalTextView
+        android:id="@+id/btn_right"
+        android:layout_width="@dimen/fragment_list_btn_right_width"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_rightbar_selector"
+        android:gravity="center"
+        android:textColor="@color/base_textcolor_selector"
+        android:textSize="@dimen/base_textsize" />
+
+</LinearLayout>

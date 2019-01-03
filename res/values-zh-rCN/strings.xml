@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">收音机</string>
+    <string name="current">电台</string>
+    <string name="fm">FM</string>
+    <string name="am">AM</string>
+    <string name="collect">收藏</string>
+    <string name="open_radio">打开</string>
+    <string name="close_radio">关闭</string>
+    <string name="mhz">MHz</string>
+    <string name="khz">KHz</string>
+    <string name="search_radio_horizontal">搜索电台</string>
+    <string name="search_radio_vertical">刷\n新\n列\n表</string>
+    <string name="message_search">确认要重新搜索有效电台吗？</string>
+    <string name="message_open_first">请先打开收音机开关！</string>
+    <string name="message_try_later">搜索未结束，请稍后再试！</string>
+    <string name="search_fail">搜索失败，请检查天线！</string>
+    <string name="search_interrupt">中断搜索！</string>
+    <string name="no_channel">没有有效电台</string>
+    <string name="no_collect">没有收藏电台</string>
+    <string name="searching">正在搜索频道</string>
+    <string name="clear_list">清\n空\n列\n表</string>
+    <string name="notice">注  意</string>
+    <string name="sure_to_clear">确认要将收藏列表全部清空吗？</string>
+    <string name="yes">确  定</string>
+    <string name="no">取  消</string>
+    <string name="invalid_fm_frequency">无效FM频点，范围（8750~10800）</string>
+    <string name="invalid_am_frequency">无效AM频点，范围（531~1629）</string>
+
+</resources>

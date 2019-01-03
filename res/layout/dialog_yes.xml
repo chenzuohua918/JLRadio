@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yes_dialog_tv_title_height"
+        android:gravity="center"
+        android:paddingTop="@dimen/yes_dialog_tv_title_padding_top"
+        android:textColor="@color/text_normal_color"
+        android:textSize="@dimen/base_textsize" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/yes_dialog_tv_message_margin_bottom"
+        android:layout_marginTop="@dimen/yes_dialog_tv_message_margin_top"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/text_normal_color"
+        android:textSize="@dimen/base_textsize" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yes_dialog_btn_confirm_height"
+        android:background="@drawable/dialog_single_btn_selector"
+        android:gravity="center"
+        android:paddingTop="@dimen/yes_dialog_btn_confirm_padding_top"
+        android:text="@string/yes"
+        android:textColor="@color/base_textcolor_selector"
+        android:textSize="@dimen/base_textsize"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fm_am_item_height"
+    android:background="@drawable/bg_list_item_selector"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/item_number"
+        android:layout_width="@dimen/fm_am_item_number_width"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:duplicateParentState="true"
+        android:gravity="right"
+        android:paddingTop="@dimen/fm_am_item_number_padding_top"
+        android:textSize="@dimen/base_textsize" />
+
+    <TextView
+        android:id="@+id/item_frequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/fm_am_item_frequency_margin_start"
+        android:duplicateParentState="true"
+        android:paddingTop="@dimen/fm_am_item_frequency_padding_top"
+        android:textSize="@dimen/base_textsize" />
+
+    <TextView
+        android:id="@+id/item_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/fm_am_item_unit_margin_start"
+        android:duplicateParentState="true"
+        android:paddingTop="@dimen/fm_am_item_unit_padding_top"
+        android:textSize="@dimen/base_textsize" />
+
+    <ImageView
+        android:id="@+id/btn_collect"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/fm_am_item_collect_margin_start"
+        android:duplicateParentState="true"
+        android:paddingLeft="@dimen/fm_am_item_collect_padding_left"
+        android:paddingRight="@dimen/fm_am_item_collect_padding_right" />
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/searching_dialog_tv_title_height"
+        android:layout_marginStart="@dimen/searching_dialog_tv_title_margin_start"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/searching_dialog_tv_title_padding_top"
+        android:textColor="@color/text_normal_color"
+        android:textSize="@dimen/base_textsize" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/searching_dialog_content_margin_bottom"
+        android:layout_marginTop="@dimen/searching_dialog_content_margin_top"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/searching_dialog_content_padding_left"
+        android:paddingRight="@dimen/searching_dialog_content_padding_right" >
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_normal_color"
+            android:textSize="@dimen/base_textsize" />
+
+        <TextView
+            android:id="@+id/tv_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/searching_dialog_tv_frequency_margin_start"
+            android:textColor="@color/text_normal_color"
+            android:textSize="@dimen/searching_dialog_tv_frequency_textsize" />
+
+        <TextView
+            android:id="@+id/tv_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_normal_color"
+            android:textSize="@dimen/base_textsize" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/searching_dialog_btn_cancel_height"
+        android:background="@drawable/dialog_single_btn_selector"
+        android:gravity="center"
+        android:paddingTop="@dimen/searching_dialog_btn_cancel_padding_top"
+        android:text="@string/no"
+        android:textColor="@color/base_textcolor_selector"
+        android:textSize="@dimen/base_textsize"
+        android:textStyle="bold" />
+
+</LinearLayout>

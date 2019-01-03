@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_toast"
+    android:padding="10dp"
+    android:textColor="@color/text_normal_color"
+    android:textSize="@dimen/base_textsize" >
+
+</Button>

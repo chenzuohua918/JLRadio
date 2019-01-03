@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.semisky.jlradio"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="com.semisky.jlradio.permission.READ_PERMISSION"
+        android:label="@string/app_name"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.semisky.jlradio.RadioActivity"
+            android:configChanges="fontScale|locale|layoutDirection"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.semisky.jlradio.receiver.RadioReceiver" >
+            <intent-filter>
+                <action android:name="com.semisky.keyevent.RADIO" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.semisky.jlradio.dao.ChannelContentProvider"
+            android:authorities="com.semisky.jlradio.dao.database"
+            android:exported="true"
+            android:multiprocess="true"
+            android:permission="com.semisky.jlradio.permission.READ_PERMISSION" >
+        </provider>
+
+        <!-- 产测广播 -->
+        <receiver android:name="com.semisky.jlradio.test.FactoryTestBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="SEMISKEY_RADIOCOLLECT" />
+                <action android:name="SEMISKEY_HOME" />
+                <action android:name="SEMISKEY_BACK" />
+                <action android:name="SEMISKEY_RADIODOWN" />
+                <action android:name="SEMISKEY_RADIOUP" />
+                <action android:name="SEMISKEY_RADIONEXT" />
+                <action android:name="SEMISKEY_RADIOPREVIOUS" />
+                <action android:name="SEMISKEY_RADIOAM" />
+                <action android:name="SEMISKEY_RADIOFM" />
+                <action android:name="SEMISKEY_RADIOSEARCH" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Radio</string>
+    <string name="current">Current</string>
+    <string name="fm">FM</string>
+    <string name="am">AM</string>
+    <string name="collect">Collection</string>
+    <string name="open_radio">Open</string>
+    <string name="close_radio">Close</string>
+    <string name="mhz">MHz</string>
+    <string name="khz">KHz</string>
+    <string name="search_radio_horizontal">Search Radios</string>
+    <string name="search_radio_vertical">Search Radios</string>
+    <string name="message_search">Confirm to search useful radio?</string>
+    <string name="message_open_first">Please open radio first!</string>
+    <string name="message_try_later">Search is unfinished，please try later！</string>
+    <string name="search_fail">Search failure, please check antenna!</string>
+    <string name="search_interrupt">Search Interrupt!</string>
+    <string name="no_channel">No useful radios</string>
+    <string name="no_collect">No Collection</string>
+    <string name="searching">Searching Radios</string>
+    <string name="clear_list">Clear List</string>
+    <string name="notice">Notice</string>
+    <string name="sure_to_clear">Sure to clear the collection list?</string>
+    <string name="yes">Confirm</string>
+    <string name="no">Cancel</string>
+    <string name="invalid_fm_frequency">Invalid FM channel，range（8750~10800）</string>
+    <string name="invalid_am_frequency">Invalid AM channel，range（531~1629）</string>
+
+</resources>

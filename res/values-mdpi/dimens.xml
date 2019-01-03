@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- base -->
+    <dimen name="base_textsize">24sp</dimen>
+
+    <!-- actvity_radio -->
+    <dimen name="content_height">491dp</dimen>
+    <dimen name="content_margin_left">13dp</dimen>
+    <dimen name="content_margin_right">13dp</dimen>
+
+    <!-- collect_item -->
+    <dimen name="collect_item_height">57dp</dimen>
+    <dimen name="collect_item_number_width">110dp</dimen>
+    <dimen name="collect_item_number_padding_top">5dp</dimen>
+    <dimen name="collect_item_frequency_margin_start">138dp</dimen>
+    <dimen name="collect_item_frequency_padding_top">5dp</dimen>
+    <dimen name="collect_item_unit_margin_start">465dp</dimen>
+    <dimen name="collect_item_unit_padding_top">5dp</dimen>
+    <dimen name="collect_item_delete_margin_start">565dp</dimen>
+    <dimen name="collect_item_delete_padding_left">20dp</dimen>
+    <dimen name="collect_item_delete_padding_right">20dp</dimen>
+
+    <!-- dialog_searching -->
+    <dimen name="searching_dialog_tv_title_height">64dp</dimen>
+    <dimen name="searching_dialog_tv_title_margin_start">50dp</dimen>
+    <dimen name="searching_dialog_tv_title_padding_top">5dp</dimen>
+    <dimen name="searching_dialog_content_margin_bottom">6dp</dimen>
+    <dimen name="searching_dialog_content_margin_top">6dp</dimen>
+    <dimen name="searching_dialog_content_padding_left">20dp</dimen>
+    <dimen name="searching_dialog_content_padding_right">20dp</dimen>
+    <dimen name="searching_dialog_tv_frequency_margin_start">240dp</dimen>
+    <dimen name="searching_dialog_tv_frequency_textsize">50sp</dimen>
+    <dimen name="searching_dialog_btn_cancel_height">70dp</dimen>
+    <dimen name="searching_dialog_btn_cancel_padding_top">5dp</dimen>
+
+    <!-- dialog_yes -->
+    <dimen name="yes_dialog_tv_title_height">64dp</dimen>
+    <dimen name="yes_dialog_tv_title_padding_top">5dp</dimen>
+    <dimen name="yes_dialog_tv_message_margin_bottom">6dp</dimen>
+    <dimen name="yes_dialog_tv_message_margin_top">6dp</dimen>
+    <dimen name="yes_dialog_btn_confirm_height">70dp</dimen>
+    <dimen name="yes_dialog_btn_confirm_padding_top">5dp</dimen>
+
+    <!-- dialog_yesorno -->
+    <dimen name="yesorno_dialog_tv_title_height">64dp</dimen>
+    <dimen name="yesorno_dialog_tv_title_padding_top">5dp</dimen>
+    <dimen name="yesorno_dialog_tv_message_margin_bottom">6dp</dimen>
+    <dimen name="yesorno_dialog_tv_message_margin_top">6dp</dimen>
+    <dimen name="yesorno_dialog_btn_yesorno_height">70dp</dimen>
+    <dimen name="yesorno_dialog_btn_confirm_padding_top">5dp</dimen>
+    <dimen name="yesorno_dialog_btn_cancel_margin_start">4dp</dimen>
+    <dimen name="yesorno_dialog_btn_cancel_padding_top">5dp</dimen>
+
+    <!-- fragment_radio -->
+    <dimen name="fragment_radio_padding_left">4dp</dimen>
+    <dimen name="fragment_radio_iv_collected_margin_start">20dp</dimen>
+    <dimen name="fragment_radio_iv_collected_padding_bottom">10dp</dimen>
+    <dimen name="fragment_radio_tv_type_margin_start">70dp</dimen>
+    <dimen name="fragment_radio_tv_type_textsize">35sp</dimen>
+    <dimen name="fragment_radio_tv_frequency_margin_start">255dp</dimen>
+    <dimen name="fragment_radio_tv_frequency_textsize">75sp</dimen>
+    <dimen name="fragment_radio_tv_unit_margin_end">70dp</dimen>
+    <dimen name="fragment_radio_tv_unit_textsize">35sp</dimen>
+    <dimen name="fragment_radio_linear_button_height">95dp</dimen>
+    <dimen name="fragment_radio_linear_button_margin_top">4dp</dimen>
+    <dimen name="fragment_radio_btn_sub_channel_margin_start">3dp</dimen>
+    <dimen name="fragment_radio_btn_collect_margin_start">3dp</dimen>
+    <dimen name="fragment_radio_btn_plus_channel_margin_start">3dp</dimen>
+    <dimen name="fragment_radio_btn_next_radio_margin_start">3dp</dimen>
+
+    <!-- fm_am_item -->
+    <dimen name="fm_am_item_height">57dp</dimen>
+    <dimen name="fm_am_item_number_width">110dp</dimen>
+    <dimen name="fm_am_item_number_padding_top">5dp</dimen>
+    <dimen name="fm_am_item_frequency_margin_start">138dp</dimen>
+    <dimen name="fm_am_item_frequency_padding_top">5dp</dimen>
+    <dimen name="fm_am_item_unit_margin_start">465dp</dimen>
+    <dimen name="fm_am_item_unit_padding_top">5dp</dimen>
+    <dimen name="fm_am_item_collect_margin_start">565dp</dimen>
+    <dimen name="fm_am_item_collect_padding_left">20dp</dimen>
+    <dimen name="fm_am_item_collect_padding_right">20dp</dimen>
+
+    <!-- fragment_list -->
+    <dimen name="framelayout_margin_left">5dp</dimen>
+    <dimen name="framelayout_margin_right">5dp</dimen>
+    <dimen name="fragment_list_tv_empty_padding_top">3dp</dimen>
+    <dimen name="fragment_list_lv_channel_divider_height">5dp</dimen>
+    <dimen name="fragment_list_lv_channel_padding_left">5dp</dimen>
+    <dimen name="fragment_list_btn_right_width">57dp</dimen>
+
+    <!-- main_left -->
+    <dimen name="main_left_width">258dp</dimen>
+    <dimen name="main_left_rb_radio_padding_left">76dp</dimen>
+    <dimen name="main_left_rb_fm_margin_top">4dp</dimen>
+    <dimen name="main_left_rb_fm_padding_left">76dp</dimen>
+    <dimen name="main_left_rb_fm_padding_top">5dp</dimen>
+    <dimen name="main_left_rb_am_margin_top">4dp</dimen>
+    <dimen name="main_left_rb_am_padding_left">76dp</dimen>
+    <dimen name="main_left_rb_am_padding_top">5dp</dimen>
+    <dimen name="main_left_rb_collect_margin_top">4dp</dimen>
+    <dimen name="main_left_rb_collect_padding_left">76dp</dimen>
+    <dimen name="main_left_rb_collect_padding_top">5dp</dimen>
+    <dimen name="main_left_cb_switch_height">95dp</dimen>
+    <dimen name="main_left_cb_switch_margin_top">4dp</dimen>
+    <dimen name="main_left_cb_switch_padding_left">76dp</dimen>
+    <dimen name="main_left_cb_switch_padding_top">5dp</dimen>
+
+</resources>
